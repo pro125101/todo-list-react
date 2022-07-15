@@ -1,0 +1,21 @@
+.user {
+  box-shadow: 0 4px 10px 0 #00000033, 0 4px 20px 0 #00000030;
+  min-width: 700px;
+  margin: 10px;
+  border-radius: 6px;
+  &_item {
+    padding: 20px;
+    cursor: pointer;
+
+    &-line {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+    }
+  }
+
+  .todo_list {
+    border-top: 1px solid #e5e5e5;
+    padding: 20px;
+  }
+}
